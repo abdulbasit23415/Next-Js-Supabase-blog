@@ -13,7 +13,10 @@ function Page() {
       } , []);
     async function getBlogs() {
     
-        const{data,error}=await supabase.from('blogs').select('*');
+        const{data,error}=await supabase
+        .from('blogs')
+        .select('*')
+        .order('id', { ascending: true })
         if(error){
           alert("Something went wrong")
         }
