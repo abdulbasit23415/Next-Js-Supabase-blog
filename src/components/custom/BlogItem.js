@@ -12,8 +12,8 @@ import {
 // import { Label } from "@/components/ui/label"
 import EditBlogDialog from "./EditBlogDialog"
 import DeleteBlogDialog from "./DeleteBlogDialog"
-import Data from "@/app/components/Data";
-import React, { useEffect, useState } from 'react';
+// import Data from "@/app/components/Data";
+// import React, { useEffect, useState } from 'react';
 
 // import {
 //   Select,

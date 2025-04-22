@@ -9,6 +9,7 @@ function page() {
       <h1 className='text-[20px] font-bold'>Explore our Blogs</h1>
       <Link href='/blogs'>
       <Button>Explore</Button>
+      
       </Link>
       </div>
     </div>
